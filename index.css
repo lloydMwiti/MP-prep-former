@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.17rem;
+    transition: .3s ease-in-out;
+    z-index: 0;
+    color: #313131;
+}
+nav{
+    width: 100vw;
+    position: fixed;
+    height: 2.8rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    padding: 0 1.5rem;
+    box-shadow:0 .1rem .6rem -.34rem rgb(0, 110, 255);
+    z-index: 10;
+}
+h1{
+    font-size: 3.7rem;
+    font-weight: lighter;
+    width: 90vw;
+    border: solid rgb(143, 143, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0 0 .2rem 0;
+}
+.name{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 1.45rem;
+    color: rgb(2, 54, 165);
+}
+body , .body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin-top: 2.8rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+}
+
+.child2{
+    padding-top: 23vh;
+    padding-bottom: 23vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.childblur{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(270deg,rgba(122, 0, 95, 0.43),rgba(0, 12, 122, 0.43),rgba(1, 3, 58, 0.486)) ;
+    /* background-color: rgba(5, 5, 31, 0.562); */
+}
+.mugshot{
+    height:13rem;
+    width:13rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .3rem;
+    margin-right: 1rem;
+
+}
+.topcard{
+    max-width: 45rem;
+    display: flex;
+    align-items: center;
+}
+.title{
+    color: rgb(14, 1, 59);
+    padding:.5rem 0 ;
+    font-size: 3rem ;
+    font-weight: lighter;
+}
+.more{
+    color: rgb(63, 63, 62);
+    font-size: 1.4rem;
+}
+.lowdesc{
+    width: 50%;
+    max-width: 45rem;
+    box-shadow: 0 0.1rem .6rem -.3rem blue;
+    height: 18rem;
+}
+
+.lowcards{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    min-height: 20rem;
+    height: 90vh;
+    max-height: 30rem;
+    width: 95%;
+    min-width: 30rem;
+    margin: 4rem 0rem;
+    background-color: white;
+    margin:.5rem ;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+}
+.cardin{
+    min-height: 20rem;
+    height: 90vh;
+    max-height: 25rem;
+    width: 95%;
+    min-width: 30rem;
+    margin-top: 4rem ;
+    background-color: white;
+    margin:.5rem ;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  
+}
+.cardimg{
+    height: 80%;
+    max-height: 20rem;
+    border-radius: .3rem;
+    margin-right: .7rem;
+    width: 40%;
+    object-fit: cover;
+    background-color: blue;
+}
+.cardimgin{
+    height: 80%;
+    max-height: 20rem;
+    border-radius: .3rem;
+    margin-left: .7rem;
+    width: 40%;
+    object-fit: cover;
+    background-color: blue;
+
+}
+.cardin>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cardin>div,.card>div{
+    max-width: 30rem;
+}
+.cardtopic{
+    font-size: 2.4rem;
+    color: rgb(47, 42, 66);
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
